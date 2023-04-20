@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #fdf2e9;
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  max-height: 11rem;
+}
+.navbar nav {
+  margin-left: 55rem;
+  font-size: 2.5rem;
+}
+.navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.navbar img {
+  height: 200px;
+  width: 250px;
+  margin-left: 0;
+  margin-right: 15rem;
+}
+.navbar nav ul li a {
+  color: #333;
+  font: bold;
+  text-decoration: none;
+  margin: 2rem 2.5rem;
+}
+.navbar nav ul li a:hover {
+  color: #cf711f;
+  transition: all ease-in-out 0.3s;
+}
+.navbar nav ul li button {
+  background-color: #cf711f;
+  color: #fdf2e9;
+  border: 1px solid #fdf2e9;
+  font-size: 1.9rem;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  min-height: 4rem;
+  min-width: 15rem;
+  box-shadow: 5px 5px 9px 1px rgb(215, 208, 208);
+}
+.navbar nav ul li button:hover {
+  transform: scaleX(1.1);
+
+  transition: all ease-in-out 0.3s;
+}
+/*CSS of generalInfo*/
+.generalInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 11rem;
+  padding: 1rem 1rem;
+}
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+  width: auto;
+  max-width: 90rem;
+  max-height: 90rem;
+  min-height: 40rem;
+}
+.infoSection h1 {
+  font-size: 7rem;
+  color: #333;
+
+  margin: 1rem 1rem;
+  margin-top: 0;
+}
+.infoSection p {
+  font-size: 3rem;
+
+  margin: 3rem 1rem;
+}
+.infoSection button {
+  background-color: #cf711f;
+  color: #fdf2e9;
+  font-size: 2.3rem;
+  border-radius: 11px;
+  height: auto;
+  width: auto;
+  min-height: 7.5rem;
+  min-width: 28rem;
+  margin: 1rem 2rem;
+  border: 1px solid #fdf2e9;
+  box-shadow: 5px 5px 9px 1px rgb(215, 208, 208);
+}
+.infoSection #button2 {
+  background-color: #e3d7ce;
+  color: #333;
+}
+.infoSection #button2:hover {
+  background-color: #dacfc7;
+  transform: translateX(5px);
+  transition: all ease-in-out 0.3s;
+}
+.infoSection button:hover {
+  background-color: #b06625;
+  transform: translateX(-5px);
+  transition: all ease-in-out 0.3s;
+}
+.imageSection {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  margin: 1rem 1rem;
+  border-radius: 15px;
+}
+.imageSection img {
+  border-radius: 15px;
+}
+.imageSection img:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.9s;
+}
