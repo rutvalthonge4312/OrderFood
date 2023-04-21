@@ -25,6 +25,7 @@ body {
   background-color: white;
   height: auto;
   max-height: 11rem;
+  position: sticky;
 }
 .navbar nav {
   margin-left: 55rem;
@@ -77,7 +78,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin: 2rem 11rem;
+  margin: 2rem 20rem;
   padding: 1rem 1rem;
 }
 .infoSection {
@@ -88,9 +89,10 @@ body {
 
   height: auto;
   width: auto;
-  max-width: 90rem;
+  max-width: 80rem;
   max-height: 90rem;
   min-height: 40rem;
+  min-width: 40rem;
 }
 .infoSection h1 {
   font-size: 7rem;
