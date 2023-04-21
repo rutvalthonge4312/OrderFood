@@ -223,3 +223,95 @@ body {
   transform: scale(1.05);
   transition: all ease-in-out 1s;
 }
+/*meals css*/
+.meals {
+  display: flex;
+  flex-direction: column;
+}
+.meals .heaaderInMeals {
+  align-items: center;
+  margin: 5rem;
+}
+.meals .heaaderInMeals h1 {
+  text-align: center;
+  color: #cf711f;
+  line-height: 1.5;
+}
+.meals .heaaderInMeals h2 {
+  text-align: center;
+  font-size: 6rem;
+  line-height: 1.5;
+}
+.meals .cardsInMeal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.meals .cardsInMeal .card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(255, 255, 255);
+  height: auto;
+  width: auto;
+  min-width: 45rem;
+  min-height: 55rem;
+  margin: 1rem 3rem;
+  background-color: white;
+  box-shadow: 5px 5px 9px 1px rgb(215, 208, 208);
+}
+.meals .cardsInMeal .card1:hover,
+.card2:hover,
+.card3:hover {
+  transform: translateY(-15px);
+  transition: all ease-in-out 0.5s;
+}
+.meals .cardsInMeal .imageInCard {
+  height: auto;
+  width: auto;
+  max-width: 35rem;
+  max-height: 35rem;
+  margin: 2rem 3rem;
+}
+.meals .cardsInMeal .imageInCard img {
+  height: auto;
+  width: auto;
+  max-width: 55rem;
+  max-height: 18rem;
+  animation: floatImage 5s ease-in-out infinite;
+}
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.meals .cardsInMeal .infoCard h3 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+.meals .cardsInMeal .infoCard h4 {
+  font-size: 2rem;
+  background-color: #cf711f;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  border-radius: 15px;
+  margin: 2rem 3rem;
+}
+.meals .cardsInMeal .infoCard ul {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  list-style: circle;
+  color: #555;
+}
