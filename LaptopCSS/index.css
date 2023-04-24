@@ -24,13 +24,13 @@ body {
   align-items: center;
   background-color: #fdf2e9;
   height: auto;
-  max-height: 11rem;
+  max-height: 10rem;
   position: fixed;
   width: 100vw;
 }
 .navbar nav {
-  margin-left: 55rem;
-  font-size: 2.5rem;
+  margin-left: 40rem;
+  font-size: 2rem;
 }
 .navbar nav ul {
   display: flex;
@@ -40,8 +40,8 @@ body {
   list-style: none;
 }
 .navbar img {
-  height: 200px;
-  width: 250px;
+  height: 190px;
+  width: 240px;
   margin-left: 0;
   margin-right: 15rem;
 }
@@ -79,7 +79,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin: 15rem 20rem;
+  margin: 15rem 5rem;
   margin-bottom: 10rem;
   padding: 1rem 1rem;
 }
@@ -93,29 +93,29 @@ body {
   width: auto;
   max-width: 80rem;
   max-height: 90rem;
-  min-height: 40rem;
-  min-width: 40rem;
+  min-height: 35rem;
+  min-width: 35rem;
 }
 .infoSection h1 {
-  font-size: 7rem;
+  font-size: 5rem;
   color: #333;
 
   margin: 1rem 1rem;
   margin-top: 0;
 }
 .infoSection p {
-  font-size: 3rem;
+  font-size: 2rem;
 
   margin: 3rem 1rem;
 }
 .infoSection button {
   background-color: #cf711f;
   color: #fdf2e9;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   border-radius: 11px;
   height: auto;
   width: auto;
-  min-height: 7.5rem;
+  min-height: 7rem;
   min-width: 28rem;
   margin: 1rem 2rem;
   border: 1px solid #fdf2e9;
@@ -139,11 +139,12 @@ body {
   height: auto;
   width: auto;
   overflow: hidden;
-  margin: 1rem 1rem;
+  margin: 2rem 2rem;
   border-radius: 15px;
 }
 .imageSection img {
   border-radius: 15px;
+  max-height: 500px;
 }
 .imageSection img:hover {
   transform: scale(1.1);
@@ -157,14 +158,14 @@ body {
   background-color: white;
 }
 .howIsItwork .headerInHowItItWork h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 8rem;
   margin-left: 20rem;
   line-height: 1.5;
   color: #cf711f;
 }
 .howIsItwork .headerInHowItItWork h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-left: 20rem;
   line-height: 1.5;
 }
@@ -184,24 +185,24 @@ body {
   margin: 2rem 3rem;
   width: auto;
   height: auto;
-  min-height: 100px;
-  min-width: 80px;
+  min-height: 70px;
+  min-width: 50px;
   max-height: 505px;
   max-width: 600px;
   font-size: 2rem;
 }
 .howIsItwork .infoTip h3 {
-  font-size: 8rem;
+  font-size: 7rem;
   color: #8e8e8e;
   line-height: 1.5;
 }
 .howIsItwork .infoTip h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 5rem;
   line-height: 1.5;
 }
 .howIsItwork .infoTip p {
-  font-size: 2.3rem;
+  font-size: 2rem;
 
   line-height: 1.5;
 }
@@ -217,8 +218,8 @@ body {
 .howIsItwork .imageInTip img {
   height: auto;
   width: auto;
-  max-height: 700px;
-  max-width: 600px;
+  max-height: 400px;
+  max-width: 400px;
 }
 .howIsItwork .imageInTip img:hover {
   transform: scale(1.05);
@@ -231,17 +232,17 @@ body {
 }
 .meals .heaaderInMeals {
   align-items: center;
-  margin: 5rem;
+  margin: 5rem 5rem;
 }
 .meals .heaaderInMeals h1 {
-  text-align: center;
   color: #cf711f;
   line-height: 1.5;
+  margin-left: 10rem;
 }
 .meals .heaaderInMeals h2 {
-  text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
   line-height: 1.5;
+  margin-left: 10rem;
 }
 .meals .cardsInMeal {
   display: flex;
@@ -260,8 +261,10 @@ body {
   border: 1px solid rgb(255, 255, 255);
   height: auto;
   width: auto;
-  min-width: 45rem;
-  min-height: 55rem;
+  min-width: 40rem;
+  min-height: 50rem;
+  max-width: 40rem;
+  max-height: 50rem;
   margin: 1rem 3rem;
   background-color: white;
   box-shadow: 5px 5px 9px 1px rgb(215, 208, 208);
@@ -298,11 +301,11 @@ body {
   }
 }
 .meals .cardsInMeal .infoCard h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 .meals .cardsInMeal .infoCard h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #cf711f;
   text-align: center;
   line-height: 1.5;
@@ -311,8 +314,70 @@ body {
   margin: 2rem 3rem;
 }
 .meals .cardsInMeal .infoCard ul {
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   line-height: 1.5;
   list-style: circle;
   color: #555;
+}
+/*customerReview CSS*/
+.customerReview {
+  display: flex;
+  flex-direction: row;
+
+  margin: 8rem 2rem;
+}
+.writtenInfo {
+  display: flex;
+  flex-direction: column;
+}
+.writtenInfo .actualReview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+  margin: auto;
+  width: auto;
+}
+.writtenInfo .actualReview p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  margin: 1rem;
+}
+.heaaderInWritteninfo {
+  margin: auto;
+  margin-top: 23rem;
+}
+.writtenInfo h1 {
+  font-size: 2rem;
+}
+.writtenInfo h2 {
+  font-size: 5rem;
+}
+.writtenInfo .actualReview img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.images .sampleImages {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  border: 2px solid #fdf2e9;
+  box-shadow: 5px 5px 9px 1px rgb(215, 208, 208);
+}
+.images img {
+  height: 100%;
+  max-height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.images img:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 1s;
 }
