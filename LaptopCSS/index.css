@@ -22,10 +22,11 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #fdf2e9;
   height: auto;
   max-height: 11rem;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
 }
 .navbar nav {
   margin-left: 55rem;
@@ -78,7 +79,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin: 2rem 20rem;
+  margin: 15rem 20rem;
   margin-bottom: 10rem;
   padding: 1rem 1rem;
 }
