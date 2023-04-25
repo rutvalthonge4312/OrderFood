@@ -27,6 +27,7 @@ body {
   max-height: 10rem;
   position: fixed;
   width: 100vw;
+  background-color: transparent;
 }
 .navbar nav {
   margin-left: 40rem;
@@ -229,6 +230,7 @@ body {
 .meals {
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 .meals .heaaderInMeals {
   align-items: center;
@@ -380,4 +382,124 @@ body {
 .images img:hover {
   transform: scale(1.2);
   transition: all ease-in-out 1s;
+}
+/*pricing CSS*/
+.pricing {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 4rem;
+}
+.pricing .headerSection {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.pricing .headerSection h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #cf711f;
+}
+.pricing .headerSection h2 {
+  font-size: 3.8rem;
+  line-height: 1.5;
+}
+.pricing .cardSection {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  padding: 1rem 1rem;
+}
+.pricing .cardSection .cardPricing1 {
+  border: 2px solid #fdf2e9;
+  box-shadow: 5px 5px 9px 1px #fdf2e9;
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  min-width: 350px;
+  min-height: 380px;
+  border-radius: 5px;
+}
+.pricing .cardSection .cardPricing1 h3 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #cf711f;
+  margin-top: 2rem;
+}
+.pricing .cardSection .cardPricing1 h2 {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+.pricing .cardSection .cardPricing1 ul {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  list-style: circle;
+  color: #777;
+
+  margin-top: 4rem;
+}
+.pricing .cardSection .cardPricing1 button {
+  margin: 3rem 2rem;
+  height: auto;
+  width: auto;
+  min-height: 40px;
+  min-width: 170px;
+  border-radius: 8px;
+  background-color: #cf711f;
+  color: white;
+  font-size: 1.7rem;
+  border: 2px solid #cf711f;
+  font-style: bold;
+}
+.pricing .cardSection .cardPricing2 {
+  border: 2px solid #fdf2e9;
+  box-shadow: 5px 5px 9px 1px rgb(230, 230, 230);
+  margin: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  min-width: 350px;
+  min-height: 380px;
+  background-color: #fdf2e9;
+  border-radius: 5px;
+}
+.pricing .cardSection .cardPricing2 h3 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #cf711f;
+  margin-top: 2rem;
+}
+.pricing .cardSection .cardPricing2 h2 {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+.pricing .cardSection .cardPricing2 ul {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  list-style: circle;
+  color: #777;
+
+  margin-top: 4rem;
+}
+.pricing .cardSection .cardPricing2 button {
+  margin: 3rem 2rem;
+  height: auto;
+  width: auto;
+  min-height: 40px;
+  min-width: 170px;
+  border-radius: 8px;
+  background-color: #cf711f;
+  color: white;
+  font-size: 1.7rem;
+  border: 2px solid #cf711f;
+  font-style: bold;
 }
