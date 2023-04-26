@@ -513,3 +513,72 @@ body {
   text-align: center;
   font-size: 1.2rem;
 }
+/*sinUpForCustomer*/
+.sinUpForCustomer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  border: 2px solid blue;
+  margin: auto auto;
+}
+.sinUpForCustomer h1 {
+  line-height: 1.5;
+  font-size: 4rem;
+  color: black;
+  font-weight: 600;
+}
+.sinUpForCustomer p {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: white;
+  color: #222;
+}
+.sinUpForCustomer .formInSinUpform {
+  border: 2px solid red;
+  background-color: #eb984e;
+  width: auto;
+  height: auto;
+
+  max-width: 550px;
+}
+.sinUpForCustomer .formInSinUpform form {
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.2rem;
+  row-gap: 1.4rem;
+}
+.form * {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0.6rem 1rem;
+}
+.sinUpForCustomer .formInSinUpform form input,
+button,
+select {
+  height: auto;
+  width: auto;
+  min-height: 3.5rem;
+  max-width: 30rem;
+  min-width: 5rem;
+  border: 1px solid #cf711f;
+  align-items: center;
+  color: white;
+}
+.sinUpForCustomer .imageInSinUpForm {
+  border: 2px solid red;
+  background-color: #eb984e;
+  height: auto;
+  width: auto;
+  max-width: 298px;
+  max-height: 547px;
+}
+.sinUpForCustomer .imageInSinUpForm img {
+  height: auto;
+  width: auto;
+  max-width: 298px;
+  max-height: 547px;
+}
