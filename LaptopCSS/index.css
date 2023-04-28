@@ -519,64 +519,71 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
-  border: 2px solid blue;
-  margin: auto auto;
-}
-.sinUpForCustomer h1 {
-  line-height: 1.5;
-  font-size: 4rem;
-  color: black;
-  font-weight: 600;
-}
-.sinUpForCustomer p {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  border: 2px solid #eb984e;
+  margin: 7rem 32rem;
+  background-color: #eb984e;
+  border-radius: 10px;
   color: white;
-  color: #222;
+  box-shadow: 5px 5px 9px 1px #bc8d63;
 }
-.sinUpForCustomer .formInSinUpform {
-  background-color: #eb984e;
-  width: auto;
-  height: auto;
+.sinUpForCustomer .imageInSinUp {
+  width: fit-content;
+  height: fit-content;
+}
+.sinUpForCustomer .imageInSinUp img {
+  max-width: 50rem;
+  max-height: 32rem;
+  opacity: 0.9;
+  margin: 1rem 0.7rem;
+}
 
-  max-width: 550px;
-}
-.sinUpForCustomer .formInSinUpform .form {
-  display: flex;
-  flex-direction: row;
-  background-color: #eb984e;
-  border: 2px solid red;
-}
-.sinUpForCustomer .formInSinUpform form {
-  border: 3px solid black;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2.2rem;
-  row-gap: 1.4rem;
-}
-.form * {
+.sinUpForCustomer .sinUpForm {
   display: flex;
   flex-direction: column;
-
-  margin: 0.6rem 1rem;
+  justify-content: center;
+  align-items: center;
 }
-.sinUpForCustomer .formInSinUpform form input,
-button,
-select {
+.sinUpForCustomer .sinUpForm h2 {
+  color: rgb(31, 31, 31);
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+.sinUpForCustomer .sinUpForm p {
+  color: rgb(31, 31, 31);
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.sinUpForCustomer .sinUpForm form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+form * {
   height: auto;
   width: auto;
   min-height: 3.5rem;
-  max-width: 30rem;
-  min-width: 5rem;
-  border: 1px solid #cf711f;
-  align-items: center;
-  color: white;
+  min-width: 20rem;
 }
-
-.sinUpForCustomer img {
-  height: auto;
-  width: auto;
-  max-width: 298px;
-  max-height: 547px;
+form input,
+button,
+select {
+  border-radius: 5px;
+  border: 1px solid white;
+}
+form label {
+  color: rgb(52, 52, 52);
+  margin: 1rem;
+  line-height: 1.5;
+}
+form button {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  border: 1px solid #45260a;
+  font-size: 1.7rem;
 }

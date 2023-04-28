@@ -254,42 +254,40 @@
       </div>
     </div>
     <div class="sinUpForCustomer">
-      <div class="formInSinUpform">
-        <div class="headerInSinUpForm">
-          <h1>Get your first meal for free!</h1>
+      <div class="imageInSinUp">
+        <img src="/ImageFolder/formImage.png" alt="Cafe Image">
+      </div>
+      <div class="sinUpForm">
+        <div class="headingSinUpForm">
+          <h2>Get your first meal for free!</h2>
           <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
         </div>
-        <div class="form">
-          <form action="backed.php">
-            <div class="name">
-              <label for="#">Name</label>
-              <input type="text" placeholder="Sujit Bhoite">
-            </div>
-            <div class="email">
-              <label for="#">Name</label>
-              <input type="email" name="email" id="email" placeholder="sujitbhoite@gmial.com">
-            </div>
-            <div class="que">
-              <label for="#">Name</label>
-              <select name="select-where" id="select">
-                <option value="">Please choose one option:</option>
-                <option value="friends">Friends and family</option>
-                <option value="youtube">YouTube video</option>
-                <option value="podcast">Podcast</option>
-                <option value="ad">Facebook ad</option>
-                <option value="others">Others</option>
-              </select>
-            </div>
-            <div class="sinUpButton">
-              <label for="#">Name</label>
-              <button>Sin Up Now!</button>
-            </div>
-            <img src="/ImageFolder/formImage.png" alt="Cafe Image">
-          </form>
-           
-        </div>
+        <form action="#">
+          <div>
+            <label for="full-name">Full Name</label> <br>
+            <input id="full-name" type="text" placeholder="Sam Rode" required />
+          </div>
+
+          <div>
+            <label for="email">Email address</label> <br>
+            <input id="email" type="email" placeholder="me@example.com" required />
+          </div>
+
+          <div>
+            <label for="select-where">Where did you hear from us?</label> <br>
+            <select id="select-where" required>
+              <option value="">Please choose one option:</option>
+              <option value="friends">Friends and family</option>
+              <option value="youtube">YouTube video</option>
+              <option value="podcast">Podcast</option>
+              <option value="ad">Facebook ad</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <button class="btn btn--form">Sign up now</button>
+        </form>
       </div>
-     
     </div>
    
   </body>
