@@ -28,6 +28,7 @@ body {
   max-height: 10rem;
   position: fixed;
   width: 100vw;
+  z-index: 1;
 }
 .navbar nav {
   margin-left: 40rem;
@@ -586,4 +587,94 @@ form button {
   padding: 1.2rem;
   border: 1px solid #45260a;
   font-size: 1.7rem;
+}
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 8rem;
+}
+footer .box1 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+footer .box1 .linksInFooter {
+  display: flex;
+  flex-direction: row;
+}
+footer .box1 .linksInFooter img {
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
+  margin: 0rem 1rem;
+}
+footer .box1 p {
+  text-decoration: none;
+  line-height: 1.5;
+}
+footer .box1 .linksInFooter img:hover {
+  transform: rotate(-10deg);
+  transition: all ease-in-out 0.5s;
+}
+footer .box2 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+footer .box2 p {
+  text-decoration: none;
+  line-height: 1.5;
+}
+footer .box3 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+footer .box3 a {
+  text-decoration: none;
+  line-height: 1.5;
+}
+footer .box4 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+footer .box4 a {
+  text-decoration: none;
+  line-height: 1.5;
+}
+footer .box5 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+footer .box5 a {
+  text-decoration: none;
+  line-height: 1.5;
+}
+footer a {
+  color: #333;
+}
+footer a:hover {
+  transform: scale(1.2);
+}
+footer h2 {
+  color: #111;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+footer p,
+a {
+  font-size: 1.6rem;
+  color: #767676;
+  margin: 0.5rem 1rem;
 }

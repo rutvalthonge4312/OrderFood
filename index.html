@@ -15,19 +15,19 @@
       <nav>
         <ul>
           <li>
-            <a href="#">How is Work</a>
+            <a href=".howIsItwork">How is Work</a>
           </li>
           <li>
-            <a href="#">Meal</a>
+            <a href=".meals">Meal</a>
           </li>
           <li>
-            <a href="#">Testimonials</a>
+            <a href=".customerReview">Testimonials</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href=".pricing">Pricing</a>
           </li>
           <li>
-            <button>Try For Free</button>
+            <button onclick="scrollToElement()">Try For Free</button>
           </li>
         </ul>
       </nav>
@@ -40,8 +40,8 @@
           healthy again. Tailored to your personal tastes and nutritional needs.
         </p>
         <div class="buttonsInInfoSection">
-          <button id="button1">Start Eating Well</button>
-          <button id="button2">Learn More</button>
+          <button id="button1" onclick="scrollToElement()">Start Eating Well</button>
+          <button id="button2" onclick="scrollToElementToLearnMore()">Learn More</button>
         </div>
       </div>
       <div class="imageSection">
@@ -289,7 +289,70 @@
         </form>
       </div>
     </div>
-   
+    <footer>
+      <div class="box1">
+       
+        <div class="linksInFooter">
+          <a href="#" target="_blank"><img src="/ImageFolder/twitterImage.png" alt="Twitter Image"></a>
+          <a href="#" target="_blank"><img src="/ImageFolder/instagramImage.png" alt="Twitter Image"></a>
+          <a href="#" target="_blank"><img src="/ImageFolder/facebookImage.png" alt="Twitter Image"></a>
+        </div>
+        <p>Copyright © 2023 by</p>
+        <p>Yummyfood Barshi,All rights reserved.</p>
+      </div>
+      <div class="box2">
+        <h2>Contact us</h2>
+        <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+        <p>415-201-6370</p>
+        <p>hello@omnifood.com</p>
+      </div>
+      <div class="box3">
+        <h2>Account</h2>
+        <a href="#" target="_blank">Create Account</a>
+        <a href="#" target="_blank">Sin In</a>
+        <a href="#" target="_blank">Android App</a>
+        <a href="#" target="_blank">iOS App</a>
+      </div>
+      <div class="box4">
+        <h2>Company</h2>
+        <a href="#" target="_blank">About Yummy Food</a>
+        <a href="#" target="_blank">for Buisness</a>
+        <a href="#" target="_blank">Cooking Info</a>
+        <a href="#" target="_blank">Careers</a>
+      </div>
+      <div class="box5">
+        <h2>Resources</h2>
+        <a href="#" target="_blank">Recipy Dictonary</a>
+        <a href="#" target="_blank">Help Center</a>
+        <a href="#" target="_blank">Privacy & terms</a>
+        
+
+      </div>
+    </footer>
+    <script>
+      var links = document.querySelectorAll("nav a");
+/*for nav bar*/
+links.forEach(function (link) {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    var target = document.querySelector(this.getAttribute("href"));
+    target.scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
+
+/*for navbar button*/
+function scrollToElement() {
+  var element = document.querySelector(".sinUpForCustomer");
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+
+function scrollToElementToLearnMore() {
+  var element = document.querySelector(".howIsItwork");
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+    </script>
   </body>
-  </body>
+  
 </html>
