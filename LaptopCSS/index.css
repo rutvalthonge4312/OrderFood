@@ -536,12 +536,17 @@ body {
   color: #222;
 }
 .sinUpForCustomer .formInSinUpform {
-  border: 2px solid red;
   background-color: #eb984e;
   width: auto;
   height: auto;
 
   max-width: 550px;
+}
+.sinUpForCustomer .formInSinUpform .form {
+  display: flex;
+  flex-direction: row;
+  background-color: #eb984e;
+  border: 2px solid red;
 }
 .sinUpForCustomer .formInSinUpform form {
   border: 3px solid black;
@@ -568,15 +573,8 @@ select {
   align-items: center;
   color: white;
 }
-.sinUpForCustomer .imageInSinUpForm {
-  border: 2px solid red;
-  background-color: #eb984e;
-  height: auto;
-  width: auto;
-  max-width: 298px;
-  max-height: 547px;
-}
-.sinUpForCustomer .imageInSinUpForm img {
+
+.sinUpForCustomer img {
   height: auto;
   width: auto;
   max-width: 298px;
