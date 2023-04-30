@@ -179,6 +179,10 @@ form * {
   min-width: 24rem;
 }
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 8rem;
 }
