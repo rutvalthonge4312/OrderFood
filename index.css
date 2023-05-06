@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fdf2e9;
+
   height: auto;
   max-height: 10rem;
   position: fixed;
@@ -589,6 +590,12 @@ form button {
   padding: 1.2rem;
   border: 1px solid #45260a;
   font-size: 1.7rem;
+}
+form button:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
 }
 /*footer*/
 footer {
