@@ -14,11 +14,11 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Show Sin Up</a></li>
-          <li><a href="#">Edit Prices</a></li>
-          <li><a href="#">Add Recipies</a></li>
-          <li><a href="#">Staff</a></li>
-          <li><a href="#">Change Password</a></li>
+          <li ><a onclick="changeButtonColor()" href="#">Show Sin Up</a></li>
+          <li ><a href="#">Edit Prices</a></li>
+          <li ><a href="#">Add Recipies</a></li>
+          <li ><a href="#">Staff</a></li>
+          <li ><a href="#">Change Password</a></li>
         </ul>
       </nav>
     </div>
@@ -26,30 +26,35 @@
       <div class="showSinUps">
         <h1>Sin Ups Of customers</h1>
         <p>Click the below button to show the customers sin ups</p>
-        <button>Show Sin Up</button>
+        <button  class="buttons0">Show Sin Up</button>
       </div>
       <div class="editPrices">
         <h1>Edit the Prices</h1>
         <p>Click the below button to Edit the Prices of Meals </p>
-        <button>Edit Prices</button>
+        <button class="buttons1">Edit Prices</button>
       </div>
       <div class="addRecipies">
         <h1>Add New Recipies</h1>
         <p>Click the below button to Add New Recipies </p>
-        <button>Add New Recipies</button>
+        <button class="buttons2">Add New Recipies</button>
       </div>
       
       <div class="showStaff">
         <h1>Show the Staff</h1>
         <p>Click the below button to Show the Staff</p>
-        <button>Show the Staff</button>
+        <button class="buttons3">Show the Staff</button>
       </div>
       <div class="changePassAndUserName">
         <h1>Change the Password</h1>
         <p>Click the below button to Change the Password</p>
-        <button>Change the Password</button>
+        <button class="buttons4">Change the Password</button>
       </div>
     </div>
     </div>
+    <script>
+    function changeButtonColor() {
+      document.getElementsByClassName("buttons0").style.backgroundColor = "white";
+    }
+    </script>
   </body>
 </html>
