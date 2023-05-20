@@ -64,12 +64,14 @@ body {
   background-color: #cf711f;
   color: #fdf2e9;
   border: 1px solid #fdf2e9;
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   height: auto;
   width: auto;
   min-height: 4rem;
-  min-width: 15rem;
+  min-width: 11rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   box-shadow: 5px 5px 9px 1px rgb(215, 208, 208);
 }
 .navbar nav ul li button:hover {

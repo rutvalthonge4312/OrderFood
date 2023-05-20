@@ -22,22 +22,22 @@
       <nav>
         <ul>
           <li>
-            <a href=".howIsItwork">How is Work</a>
+            <a href=".howIsItwork" class="scrollHere">How is Work</a>
           </li>
           <li>
-            <a href=".meals">Meal</a>
+            <a href=".meals" class="scrollHere">Meal</a>
           </li>
           <li>
-            <a href=".customerReview">Testimonials</a>  
+            <a href=".customerReview" class="scrollHere">Testimonials</a>  
           </li>
           <li>
-            <a href=".pricing">Pricing</a>
+            <a href=".pricing" class="scrollHere">Pricing</a>
           </li>
           <li>
-            <a href="logInPage.html" target="_blank">Admin Page</a>
-          </li>
+            <button id="goToAdminPage">Admin Page</button>
+          </li> 
           <li>
-            <button onclick="scrollToElement()">Try For Free</button>
+            <button onclick="scrollToElement()">Sin Up Here!</button>
           </li>
           
         </ul>
@@ -45,7 +45,7 @@
     </div>
     <div class="generalInfo">
       <div class="infoSection">
-        <h1>A healthy meal delivered to your door, every single day</h1>
+        <h1>A healthy meal delivered to you, every single day</h1>
         <p>
           The smart 365-days-per-year food subscription that will make you eat
           healthy again. Tailored to your personal tastes and nutritional needs.
@@ -70,7 +70,7 @@
           <h3>01</h3>
           <h2>Tell us what you like (and what not)</h2>
           <p>
-            Never again waste time thinking about what to eat! Omnifood AI will
+            Never again waste time thinking about what to eat! Yummy Food AI will
             create a 100% personalized weekly meal plan just for you. It makes
             sure you get all the nutrients and vitamins you need, no matter what
             diet you follow!
@@ -88,7 +88,7 @@
           <h3>02</h3>
           <h2>Approve your weekly meal plan</h2>
           <p>
-            Once per week, approve the meal plan generated for you by Omnifood
+            Once per week, approve the meal plan generated for you by YummyFood
             AI. You can change ingredients, swap entire meals, or even add your
             own recipes.
           </p>
@@ -117,11 +117,11 @@
       <div class="cardsInMeal">
         <div class="card1">
           <div class="imageInCard">
-            <img src="meal1.png" alt="Meal Image" />
+            <img src="img1.png" alt="Meal Image" />
           </div>
           <div class="infoCard">
             <h4>VEGETARIAN</h4>
-            <h3>Japanese Gyozas</h3>
+            <h3>Cafe Stuffs's</h3>
             <ul>
               <li>650 calories</li>
               <li>NutriScore ® 74</li>
@@ -135,7 +135,7 @@
           </div>
           <div class="infoCard">
             <h4>VEGETARIAN</h4>
-            <h3>Japanese Gyozas</h3>
+            <h3>YummyFood's Special</h3>
             <ul>
               <li>650 calories</li>
               <li>NutriScore ® 74</li>
@@ -149,13 +149,16 @@
           </div>
           <div class="infoCard">
             <h4>VEGETARIAN</h4>
-            <h3>Japanese Gyozas</h3>
+            <h3>French Fries</h3>
             <ul>
               <li>650 calories</li>
               <li>NutriScore ® 74</li>
               <li>4.9 rating (537)</li>
             </ul>
           </div>
+        </div>
+        <div class="card4">
+          <a href="#">Show More</a>
         </div>
       </div>
     </div>
@@ -237,8 +240,8 @@
       <div class="cardSection">
         <div class="cardPricing1">
           <h3>STARTER</h3>
-          <h2> &#x20B9 200</h2>
-          <p>per month. That's just 13 &#x20B9 per meal!</p>
+          <h2> &#x20B9 1700</h2>
+          <p>per month. That's just 56 &#x20B9 per meal!</p>
           <ul>
             <li>1 meal per day</li>
             <li>Order from 11am to 9pm</li>
@@ -249,8 +252,8 @@
         </div>
         <div class="cardPricing2">
           <h3>COMPLETE</h3>
-          <h2> &#x20B9 500</h2>
-          <p>per month. That's just 11 &#x20B9 per meal!</p>
+          <h2> &#x20B9 3000</h2>
+          <p>per month. That's just 50 &#x20B9 per meal!</p>
           <ul>
             <li>2 meal per day</li>
             <li>24 Hour Delivery</li>
@@ -270,7 +273,7 @@
       </div>
       <div class="sinUpForm">
         <div class="headingSinUpForm">
-          <h2>Get your first meal for free!</h2>
+          <h2>Sin Up for Eating healthy Meals!</h2>
           <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
         </div>
         <form action="#">
@@ -352,6 +355,15 @@ links.forEach(function (link) {
     });
   });
 });
+
+/*For Admin Page botton*/
+var adButton = document.getElementById("goToAdminPage");
+
+  // Add a click event listener to the button
+  adButton.addEventListener("click", function() {
+    // Redirect to another page
+    window.location.href = "ActualAdminPage.html";
+  });
 
 /*for navbar button*/
 function scrollToElement() {
